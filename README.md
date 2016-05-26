@@ -20,8 +20,10 @@ git pull -u origin master
 The command line application must:
 * Take a single argument specifying the search term, and error out if one is not provided
 * Using the Open Movie Database API as a starting point, find all movies that have a title containing the given search term, and also have a Poster available. There´s no need to actually retrieve the high resolution poster image using the sort the results by Year ascending.
-* Ouput one line for each result, in the following format: {title} [{year}] - {poster_url}
-* After the results, on a separate line, output the number of results in the format: => {count} result(s) found
+* Ouput one line for each result, in the following format: 
+  ```{title} [{year}] - {poster_url}```
+* After the results, on a separate line, output the number of results in the format: 
+  ```=> {count} result(s) found``` 
 
 ```
 search term: 
